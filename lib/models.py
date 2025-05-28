@@ -22,6 +22,7 @@ class Company(Base):
 class Dev(Base):
     __tablename__ = 'devs'
 
+
     id = Column(Integer(), primary_key=True)
     name= Column(String())
 
